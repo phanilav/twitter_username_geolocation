@@ -107,10 +107,10 @@ def get_Location():
     #FOR OAUTH AUTHENTICATION -- NEEDED TO ACCESS THE TWITTER API
     #REPLACE 'APP_KEY' WITH YOUR APP KEY, ETC., IN THE NEXT 4 LINES
     # CHANGE IT ACCORDINGLY
-    t = Twython(app_key='lBaNqgwPDyOCuUOTBhvoicdsl', 
-        app_secret='KmnqNaexMKTnkh2ELlB7me3v5KrKUHmQVLqeWInZwnBwMTpGXd',
-        oauth_token='87985053-yVVsNuoqD9IsNoCC8xoJXlKqkI4IwpD5m6frXFMfn',
-        oauth_token_secret='sTg9lKAQFfZ7pWyXBxEN0NxGx5aejgARc1jlSSFPKRXkK')
+    t = Twython(app_key='#Key', 
+        app_secret='#secret',
+        oauth_token='#token',
+        oauth_token_secret='#token_secret')
 
     df = pd.read_csv(filename+"_preprocessed.csv", encoding = "utf-8",low_memory=False)
        
